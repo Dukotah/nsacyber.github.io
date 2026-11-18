@@ -1,6 +1,6 @@
 # NSA Cybersecurity open source software releases
 
-This page lists open source software released by the [Cybersecurity mission at NSA](https://www.nsa.gov/what-we-do/cybersecurity/) and also hosts a [code.gov](https://code.gov) [code.json code inventory file](./code.json). See the [Open Source @ NSA web site](https://code.nsa.gov) and the [NSA Technology Transfer Program web site](https://www.nsa.gov/what-we-do/research/technology-transfer) for more information about open source software released by NSA.
+This page lists open source software released by the [Cybersecurity mission at NSA](https://www.nsa.gov/what-we-do/cybersecurity/) and also hosts a [code.gov](https://web.archive.org/web/20200103135343/https://code.gov/) [code.json code inventory file](./code.json). See the [Open Source @ NSA web site](https://code.nsa.gov) and the [NSA Technology Transfer Program web site](https://www.nsa.gov/what-we-do/research/technology-transfer) for more information about open source software released by NSA.
 
 ## AppLocker Guidance
 Configuration guidance for implementing application whitelisting with AppLocker.
@@ -26,7 +26,7 @@ Creates a code.gov code inventory JSON file based on GitHub repository informati
 ## Control Flow Integrity
 A proposed hardware-based method for stopping known memory corruption exploitation techniques.
 * **Source**: <https://github.com/nsacyber/Control-Flow-Integrity>
-* **Website**: <http://landhere.galois.com>
+* **Website**: <https://web.archive.org/web/20191216060408/http://landhere.galois.com/>
 
 ## Detect CVE-2017-15361 TPM
 Detects Windows and Linux systems with enabled Trusted Platform Modules (TPM) vulnerable to CVE-2017-15361
@@ -63,9 +63,9 @@ Aids in discovering HTTP and HTTPS connectivity issues
 * **Source**: <https://github.com/nsacyber/HTTP-Connectivity-Tester>
 
 ## Java PathFinder Mango (JPF-Mango)
-A static code analysis tool, part of the [NASA Ames Java PathFinder](https://babelfish.arc.nasa.gov/trac/jpf/wiki) project, that uses formal methods to verify executable Java bytecode.
+A static code analysis tool, part of the [NASA Ames Java PathFinder](https://github.com/javapathfinder/jpf-core/wiki) project, that uses formal methods to verify executable Java bytecode.
 * **Source**: <https://babelfish.arc.nasa.gov/hg/jpf/jpf-mango>
-* **Website**: <https://jpf.byu.edu/hg/jpf-mango> or <https://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-mango>
+* **Website**: <https://jpf.byu.edu/hg/jpf-mango> or <https://web.archive.org/web/20160801064020/http://babelfish.arc.nasa.gov/trac/jpf/wiki/projects/jpf-mango>
 
 ## LOCKLEVEL
 A prototype that demonstrates a method for scoring how well Windows systems have implemented some of the top 10 Information Assurance mitigation strategies.
@@ -85,8 +85,8 @@ A userland network manager with monitoring and limiting capabilities for macOS.
 
 ## OpenAttestation
 Verifies system integrity by establishing a baseline measurement of a system's Trusted Platform Module (TPM) and monitors for changes in that measurement. OpenAttestion was originally based on NSA's National Information Assurance Research Laboratory (NIARL) Host Integrity at Startup (HIS) software.
-* **Source**: <https://github.com/OpenAttestation/OpenAttestation>
-* **Website**: <https://01.org/openattestation>
+* **Source**: <https://web.archive.org/web/20190719084004/https://github.com/OpenAttestation/OpenAttestation>
+* **Website**: <https://web.archive.org/web/20191118011521/https://01.org/openattestation>
 
 ## paccor
 The Platform Attribute Certificate Creator can gather component details, create, sign, and validate the TCG-defined Platform Credential.
@@ -108,7 +108,7 @@ A mandatory access control mechanism for the Linux kernel.
 
 ## Security Enhancements (SE) for Android
 A mandatory access control mechanism for Android.
-* **Source**: <https://android.googlesource.com> and <https://bitbucket.org/seandroid>
+* **Source**: <https://android.googlesource.com> and <https://web.archive.org/web/20211027093236/https://bitbucket.org/seandroid/>
 * **Website**: <https://source.android.com/security/selinux>
 
 ## serial2pcap
@@ -133,7 +133,7 @@ Identifies defensive gaps in security posture by leveraging Mitre's ATT&CK frame
 ## WALKOFF
 A flexible, easy to use, automation framework allowing users to integrate their capabilities and devices to cut through the repetitive, tedious tasks slowing them down.
 * **Source**: <https://github.com/nsacyber/WALKOFF> and <https://github.com/nsacyber/WALKOFF-Apps>
-* **Website**: <https://nsacyber.github.io/WALKOFF>
+* **Website**: <https://web.archive.org/web/20201019053705/https://nsacyber.github.io/WALKOFF/>
 
 ## Windows Event Log Messages
 Retrieves the definitions of Windows Event Log messages embedded in Windows binaries and provides them in discoverable formats.
