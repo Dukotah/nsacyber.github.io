@@ -77,6 +77,10 @@ Actions run 44248035058 (push, `Library`): regenerate OK, then lychee:
 ```
 | Total 1320 | Successful 1249 | Timeouts 0 | Redirected 273 | Excluded 71 | Errors 0 |
 ```
+Actions run 44248462956 (`workflow_dispatch` on `lane/library-hub`): regenerate committed
+`3875554 Regenerate library pages` (forks.md now "10 forks, 10 with a report"), lychee
+`Total 1326 | Errors 0`. So manual dispatch works from the branch; only the cron needs the default branch.
+
 Pages (`gh api -X POST repos/Dukotah/nsacyber.github.io/pages`), then `pages-build-deployment` success:
 ```
 200 http://labs.copperbaytech.com/nsacyber.github.io/            (dukotah.github.io/nsacyber.github.io redirects here)
