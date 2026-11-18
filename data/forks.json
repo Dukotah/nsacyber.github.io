@@ -3,10 +3,10 @@
   {"repo": "Mitigating-Web-Shells", "summary": "Fixes the Sysmon log name, nonexistent .bin names and a LogCheck crash; fork adds CI, a test corpus and a hardened LogCheck.py."},
   {"repo": "Event-Forwarding-Guidance", "summary": "Fixes AppLocker event levels (#19) and the DefenderErr provider name; fork adds consistency tests, modern subscriptions and a Sigma generator."},
   {"repo": "ELITEWOLF", "summary": "Assigns unique SIDs so the rule files load; fork adds Suricata 7 and Snort 3 rule sets, tests and CI."},
-  {"repo": "AppLocker-Guidance", "summary": ""},
+  {"repo": "AppLocker-Guidance", "summary": "Fixes the default lookback and leftover debug code in the event scripts; fork adds Pester policy tests, tools and a CI workflow."},
   {"repo": "Hardware-and-Firmware-Security-Guidance", "summary": "Fixes Secure Boot signing snippets (#24, #25, #26); fork adds a read-only checker for the 2011 to 2023 Secure Boot CA rollover."},
-  {"repo": "RIM-Tool", "summary": ""},
-  {"repo": "RandPassGenerator", "summary": ""},
+  {"repo": "RIM-Tool", "summary": "Adds CoRIM with CoSWID system tests; fork adds a Veraison interop harness and workflow."},
+  {"repo": "RandPassGenerator", "summary": "Adds a GitHub Actions build and self-test workflow; fork adds a JUnit 5 suite with the NIST CAVP Hash_DRBG vectors, a Maven build and a native image."},
   {"repo": "HIRS", "summary": "Removes tcg_rim_tool leftovers after its move to RIM-Tool; fork adds an ML-DSA COSE engine with tests and CI."},
   {"repo": "nsacyber.github.io", "summary": "Replaces dead links on the open source page; fork adds this generated library page, a link check and Pages publishing."}
 ]

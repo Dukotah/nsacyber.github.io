@@ -436,7 +436,7 @@
         "fix/events-csv-scripts",
         "lane/policy-as-code"
       ],
-      "report_branch": null
+      "report_branch": "lane/policy-as-code"
     },
     {
       "repo": "Hardware-and-Firmware-Security-Guidance",
@@ -454,7 +454,7 @@
         "fix/corim-coswid-tests",
         "lane/corim-conformance"
       ],
-      "report_branch": null
+      "report_branch": "lane/corim-conformance"
     },
     {
       "repo": "RandPassGenerator",
@@ -465,7 +465,7 @@
         "fix/selftest-fail-closed",
         "lane/junit-native"
       ],
-      "report_branch": null
+      "report_branch": "lane/junit-native"
     },
     {
       "repo": "HIRS",
@@ -480,7 +480,8 @@
       "repo": "nsacyber.github.io",
       "fork": "https://github.com/Dukotah/nsacyber.github.io",
       "branches": [
-        "fix/dead-links"
+        "fix/dead-links",
+        "lane/library-hub"
       ],
       "report_branch": null
     }
