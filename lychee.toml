@@ -1,0 +1,19 @@
+# Link check for the Markdown pages (run by .github/workflows/library.yml).
+max_retries = 3
+retry_wait_time = 5
+timeout = 30
+max_concurrency = 8
+accept = [200, 429]
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
+
+exclude = [
+  # www.nsa.gov answers the same URL with 403 or 200 from one request to the next and served
+  # "Access Denied" to a real browser on 2026-11-17, so its status says nothing about the link.
+  '^https?://www\.nsa\.gov/',
+  # Known dead with no replacement found (see LANE-REPORT.md): JPF-Mango source and mirror,
+  # selinuxproject.org (connection refused), www.iad.gov (untrusted certificate, cited as "formerly").
+  '^https://babelfish\.arc\.nasa\.gov/hg/',
+  '^https://jpf\.byu\.edu/',
+  '^https://selinuxproject\.org',
+  '^https://www\.iad\.gov',
+]
