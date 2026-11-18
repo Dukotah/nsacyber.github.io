@@ -2,7 +2,7 @@
 
 This is an unofficial community fork of nsacyber.github.io. It is not affiliated with or endorsed by NSA. The generator and its output are in the fork's `lane/library-hub` branch.
 
-Generated from the GitHub API on 2026-11-17 by `scripts/build_library.py`. 39 public repositories in the [nsacyber](https://github.com/nsacyber) organization: 11 not archived, 28 archived. Sorted by last push, newest first.
+Generated from the GitHub API on 2026-11-18 by `scripts/build_library.py`. 39 public repositories in the [nsacyber](https://github.com/nsacyber) organization: 11 not archived, 28 archived. Sorted by last push, newest first.
 
 ## Not archived
 
